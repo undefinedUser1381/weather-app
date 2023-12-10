@@ -4,7 +4,7 @@
 }
 body{
     box-sizing: border-box;
-    background-image: url(./image/pic.jpg);
+    background-image: url(../image/pic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
