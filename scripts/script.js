@@ -4,7 +4,6 @@ let reqDetails = {
      reqKey : "a1f64a423cf95babdd5116bc3f53342e",
      url : "https://api.openweathermap.org/data/2.5/weather?q="
 }
-
 async function getWeatherData (requierdVal) {
 
     let resData = await fetch(`${reqDetails.url}${requierdVal}&&appid=${reqDetails.reqKey}`);
@@ -14,7 +13,6 @@ async function getWeatherData (requierdVal) {
     showDataToDom(result)
     
 }
-
 function showNowDate () {
     let months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
     let dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -29,7 +27,6 @@ function showNowDate () {
     return `${day} ${date} ${month} ${year}`;
 
 }
-
 function showDataToDom (res) {
 
     let cityNama = document.querySelector(".city-name");
@@ -49,9 +46,6 @@ function showDataToDom (res) {
     countryTemp.innerHTML = `${Math.floor(res.main.temp_min - constNum)}°C / ${Math.floor(res.main.temp_max - constNum)}°C`;
 
 }
-
-
-
 inputeELem.addEventListener("keypress", (e) => {
 
        if(e.key === "Enter"){
