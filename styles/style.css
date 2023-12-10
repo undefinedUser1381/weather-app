@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
 }
-
 body{
     box-sizing: border-box;
     background-image: url(../images/pic.jpg);
@@ -14,7 +13,6 @@ body{
     align-items: center;
     justify-content: center;
 }
-
 .holder{
     display: flex;
     flex-direction: column;
@@ -27,7 +25,6 @@ body{
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 20px;
 }
-
 input{
      border-radius: 10px;
      padding: 10px 30px;
@@ -40,7 +37,6 @@ input{
      border: none;
      border-bottom: 4px solid pink;
 }
-
 .city-details{
     font-size: 30px;
     font-weight: 900;
@@ -48,7 +44,6 @@ input{
     text-align: center;
     color:plum;
 }
-
 .city-date{
     font-size: 24px;
     font-weight: 900;
@@ -57,21 +52,18 @@ input{
     margin-top: 5px;
     color:plum;
 }
-
 .city-temprature{
     font-size: 64px;
     font-weight: 900;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: plum;
 }
-
 .weather-status,.country-temp{
     font-size: 22px;
     font-weight: 900;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: plum;
 }
-
 .country-temp{
     font-size: 20px;
 }
